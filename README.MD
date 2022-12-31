@@ -19,7 +19,7 @@
 
 ## 🎨 Layout
 
-[Acessar Layout no Figma](https://www.figma.com/file/FOKHUTppgZN9GvdR7j9aA0/DoctorCare-(Community)?node-id=61%3A144)
+[Acessar Layout no Figma](https://www.figma.com/file/saEuGFYFIWxj68gJIJ9TsT/Figmaland--Business-Landing-page-(Community)?node-id=65%3A122&t=JbqnGanTLQSx0UCd-0)
 
 <br />
 <br />
