@@ -23,6 +23,9 @@
         "react/react-in-jsx-scope": "off",
         "no-shadow": "off",
         "jsx-a11y/iframe-has-title": "off",
+        "react/button-has-type": "off",
+        "react/require-default-props": "off",
+        "react/jsx-props-no-spreading": "off",
         "react/jsx-filename-extension": [ "warn", {"extensions": [".tsx"]} ],
         "import/extensions": [
             "error",
