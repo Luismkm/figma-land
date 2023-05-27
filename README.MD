@@ -21,6 +21,8 @@
 
 [Acessar Layout no Figma](https://www.figma.com/file/saEuGFYFIWxj68gJIJ9TsT/Figmaland--Business-Landing-page-(Community)?node-id=65%3A122&t=JbqnGanTLQSx0UCd-0)
 
+[Acessar Deploy](https://figma-land-luismkm.netlify.app/)
+
 <br />
 <br />
 
