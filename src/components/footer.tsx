@@ -6,9 +6,9 @@ import mobile from '../assets/mobile.svg';
 
 function Footer() {
   return (
-    <footer className="w-[1777px] py-[150px] bg-gray-500 mt-[102px]">
-      <div>
-        <div className="flex justify-center gap-5">
+    <footer className="w-full xl:w-[1777px] py-[150px] bg-gray-500 mt-[102px]">
+      <div className="lg:flex justify-center text-center lg:text-start gap-[73px] lg:gap-5">
+        <div className="flex flex-col md:flex-row items-center md:justify-around lg:justify-center gap-10 md:gap-0 lg:gap-10">
           <nav className="w-[186px] h-[267px] text-white-100">
             <ul className="text-[0.9375rem]">
               <li className="text-xl font-bold first:mb-[25px] mb-[16px] last:mb[0px]">
@@ -77,7 +77,10 @@ function Footer() {
               </li>
             </ul>
           </nav>
-          <div className="flex flex-col text-white-100 ml-[125px]">
+        </div>
+
+        <div className="flex flex-col md:flex-row lg:flex-col items-center md:justify-around md:items-baseline gap-12 text-white-100 mt-10 xl:ml-[125px]">
+          <div className="flex flex-col items-start">
             <div className="flex items-center gap-[10px] mb-[10px]">
               <img src={location} alt="" />
               <p className="text-center mt-[10px]">
@@ -90,13 +93,14 @@ function Footer() {
                 (239) 555-0108
               </span>
             </div>
-            <div className="flex gap-6 py-[30px]">
-              <img src={twitter} alt="" />
-              <img src={facebook} alt="" />
-              <img src={linkedin} alt="" />
-            </div>
+          </div>
+          <div className="flex xl:justify-start gap-6 py-[30px]">
+            <img src={twitter} alt="" />
+            <img src={facebook} alt="" />
+            <img src={linkedin} alt="" />
           </div>
         </div>
+
       </div>
     </footer>
   );

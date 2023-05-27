@@ -8,7 +8,7 @@ import Button from '../../../components/button';
 
 function Partners() {
   return (
-    <section className="flex flex-col justify-center items-center pb-[80px]">
+    <section className="w-full flex flex-col justify-center items-center pb-[80px] px-4">
       <h3 className="text-5xl tracking-[0.2px] text-gray-500 text-center mb-[17px]">
         Partners
       </h3>
@@ -17,7 +17,7 @@ function Partners() {
         <br />
         Slate is designed for freelancers
       </p>
-      <div className="flex flex-col justify-center items-center">
+      <div className="hidden xl:flex flex-col justify-center items-center">
         <div className="grid grid-cols-[273px,273px,302px,220px] h-[165px] w-auto">
           <PartnerItem logo={google} alt="logo Google" />
           <PartnerItem logo={amazon} alt="logo Amazon" />
@@ -31,7 +31,15 @@ function Partners() {
           <PartnerItem logo={amazon} alt="logo Amazon" />
         </div>
       </div>
-      <Button title="Try For Free" bold bgBlue />
+
+      <div className="flex xl:hidden">
+        <div className="flex flex-col items-center gap-7 px-12">
+          <PartnerItem className="w-[273px]" logo={google} alt="logo Google" />
+          <PartnerItem className="w-[273px]" logo={amazon} alt="logo Amazon" />
+          <PartnerItem className="w-[273px]" logo={microsoft} alt="logo Microsoft" />
+        </div>
+      </div>
+      <Button title="Try For Free" bold bgBlue className="mt-[80px]" />
     </section>
   );
 }

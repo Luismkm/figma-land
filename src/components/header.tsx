@@ -7,7 +7,7 @@ import mobileMenu from '../assets/mobile_menu.svg';
 
 function Header() {
   return (
-    <header className="w-screen max-w-[1210px] mx-auto flex flex-row justify-center lg:justify-between px-2">
+    <header className="w-screen max-w-[1210px] mx-auto flex flex-row justify-center lg:justify-between px-4">
       <div className="flex flex-row justify-between md:justify-start items-center w-screen md:w-auto px-4">
         <nav className="hidden md:block">
           <ul className="flex flex-row gap-[30px] text-white-100">
